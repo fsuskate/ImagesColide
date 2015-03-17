@@ -21,6 +21,7 @@
 		129F8FD31859660000853A04 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 129F8FB51859660000853A04 /* UIKit.framework */; };
 		129F8FDB1859660000853A04 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 129F8FD91859660000853A04 /* InfoPlist.strings */; };
 		129F8FDD1859660000853A04 /* ImagesColideTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 129F8FDC1859660000853A04 /* ImagesColideTests.m */; };
+		12FEE06E1890B02A00491E5C /* bat.png in Resources */ = {isa = PBXBuildFile; fileRef = 12FEE06D1890B02A00491E5C /* bat.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		129F8FD81859660000853A04 /* ImagesColideTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ImagesColideTests-Info.plist"; sourceTree = "<group>"; };
 		129F8FDA1859660000853A04 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		129F8FDC1859660000853A04 /* ImagesColideTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImagesColideTests.m; sourceTree = "<group>"; };
+		12FEE06D1890B02A00491E5C /* bat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bat.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 		129F8FB71859660000853A04 /* ImagesColide */ = {
 			isa = PBXGroup;
 			children = (
+				12FEE06D1890B02A00491E5C /* bat.png */,
 				129F8FC01859660000853A04 /* AppDelegate.h */,
 				129F8FC11859660000853A04 /* AppDelegate.m */,
 				129F8FC31859660000853A04 /* Main.storyboard */,
@@ -231,6 +234,7 @@
 				129F8FCA1859660000853A04 /* Images.xcassets in Resources */,
 				129F8FBC1859660000853A04 /* InfoPlist.strings in Resources */,
 				129F8FC51859660000853A04 /* Main.storyboard in Resources */,
+				12FEE06E1890B02A00491E5C /* bat.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +464,7 @@
 				129F8FE21859660000853A04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		129F8FE31859660000853A04 /* Build configuration list for PBXNativeTarget "ImagesColideTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +473,7 @@
 				129F8FE51859660000853A04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

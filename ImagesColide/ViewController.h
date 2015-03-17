@@ -9,5 +9,15 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+{
+    IBOutlet UIImageView *img1;
+    IBOutlet UIImageView *img2;
+    
+}
+
+@property (nonatomic, retain) UIImageView *img1;
+@property (nonatomic, retain) UIImageView *img2;
+
+-(void)collision;
 
 @end
